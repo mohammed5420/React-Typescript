@@ -10,14 +10,7 @@ import { useEffect } from "react";
 
 const App: React.FC = () => {
 
-  const history = useHistory();
-  const handelPush = () => {
-    history.push('/')
-  }
-
-  useEffect(() => {
-    handelPush();
-  })
+  
 
 
   return (
